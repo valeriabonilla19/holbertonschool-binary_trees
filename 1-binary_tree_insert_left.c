@@ -18,7 +18,6 @@ new_node = binary_tree_node(parent, value);  /* Create the new node */
 if (new_node == NULL)
 return (NULL);
 
-/* If parent already has a left-child, make it the left-child of the new node */
 if (parent->left != NULL)
 {
 new_node->left = parent->left;
